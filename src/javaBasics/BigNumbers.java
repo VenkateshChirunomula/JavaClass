@@ -16,7 +16,7 @@ public class BigNumbers {
 		int factorial =1;
 		int num = 50;
 		BigInteger b = new BigInteger("1");
-		for(int i = num; i>=1;i-- )
+		for(int i = num; i>=1;i--)
 		{
 			
 			b = b.multiply(BigInteger.valueOf(i));
